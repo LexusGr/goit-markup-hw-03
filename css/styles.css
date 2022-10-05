@@ -62,7 +62,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -121,8 +120,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  /* identical to box height, or 188% */
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -135,9 +132,9 @@ body {
 
 /* features */
 
-.features {
-  background-color: var(--primery-background-color);
-}
+/* .features {
+
+} */
 /* .features-list {
 } */
 
@@ -145,18 +142,14 @@ body {
 } */
 .features .features-title {
   font-weight: 700;
-
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .features .features-text {
-  font-weight: 400;
-
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
-
   color: var(--secondory-text-color);
 }
 
@@ -167,9 +160,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.engage-title {
-  background-color: var(--primery-background-color);
-}
+/* .engage-title {
+} */
 
 /* team */
 .team {
@@ -182,17 +174,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team-list .team-position {
   font-size: 16px;
   line-height: 1.18;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--secondory-text-color);
 }
 .team .team-item {
@@ -215,13 +204,11 @@ body {
 }
 .address-link {
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: var(--primery-wight);
 }
 .address-contlink {
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: var(--therd-text-color);
 }
@@ -237,7 +224,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* identical to box height, or 162% */
   border-radius: 4px;
   letter-spacing: 0.03em;
   cursor: pointer;
@@ -256,16 +242,12 @@ body {
 .progects-link .progects-title {
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-  font-style: normal;
   color: var(--primery-text-color);
 }
 .progects-link .progects-text {
   font-size: 16px;
   line-height: 1.88;
-  /* identical to box height, or 188% */
-
   letter-spacing: 0.03em;
   color: var(--secondory-text-color);
 }
