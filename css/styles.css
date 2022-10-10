@@ -298,7 +298,6 @@ img {
   border-color: transparent;
   letter-spacing: 0.03em;
   padding: 6px 22px;
-  cursor: pointer;
   font-family: 'Roboto';
   background-color: var(--secondory-background-color);
 }
