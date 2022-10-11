@@ -276,14 +276,10 @@ img {
 
 .footer .header-logo {
   margin-right: 0;
+  display: block;
+  margin-bottom: 20px;
 }
-.footer .address-container {
-  margin-right: 0;
-}
-.footer-address {
-  width: 231px;
-  margin-top: 20px;
-}
+
 .footer .logo-text {
   color: var(--primery-wight);
 }
@@ -310,9 +306,6 @@ img {
 
 /* portfolio */
 
-.portfolio {
-  /* background-color: var(--primery-background-color); */
-}
 .filters-list {
   display: flex;
   gap: 8px;
